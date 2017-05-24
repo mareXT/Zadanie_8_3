@@ -1,0 +1,11 @@
+h1 {
+	text-align: center;
+}
+form {
+	margin: 0 auto;
+	width: 500px;
+}
+
+.clock {
+	background-color: #ccc;
+}
