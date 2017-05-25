@@ -1,8 +1,8 @@
 //written by Bogdan Blaszczak "BlaTek"
 //homepage http://blatek.board.pl
 
-// test scriptu
-'alert(‘test’);'
+
+alert('test'); // test scriptu
 
 // zegar
 function zegarek(offs){
