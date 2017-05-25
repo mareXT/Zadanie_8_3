@@ -1,6 +1,10 @@
 //written by Bogdan Blaszczak "BlaTek"
 //homepage http://blatek.board.pl
 
+// test scriptu
+'alert(‘test’);'
+
+// zegar
 function zegarek(offs){
  offs=offs+lato_offset;
  var g,m,s,teraz=new Date();
@@ -13,7 +17,6 @@ function zegarek(offs){
  czas+=(s<10?":0":":")+s;
  return czas;
 }
-
 function zegarStart(){
  var lato=new Date(2000,7,1), teraz=new Date();
  lato_offset=(teraz.getTimezoneOffset()==lato.getTimezoneOffset())?1:0;
@@ -21,6 +24,7 @@ function zegarStart(){
  setInterval('ustawCzas()',1000);
 }
 
+// czas w miastach
 function ustawCzas(){
  function Czas(id,offs){
   document.clock.elements[id].value=zegarek(offs);
